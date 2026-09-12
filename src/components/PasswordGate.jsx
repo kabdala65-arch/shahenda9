@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { useImageFallback } from '../hooks/useImageFallback'
 import './PasswordGate.css'
 
-const CORRECT_PASSWORD = 'ام خلود'
+const CORRECT_PASSWORD = 'ام خدود'
 
 export default function PasswordGate({ onUnlock }) {
   const [value, setValue] = useState('')
